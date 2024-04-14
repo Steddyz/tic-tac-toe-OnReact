@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.square {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 32px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 32px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.game-info {
+}
+
+.moves {
+  padding: 5px;
+}
+
+ol {
+  padding-top: 10px;
+}
+
+button.moves {
+  margin: 2px;
+  font-size: 16px;
+  background-color: burlywood;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+button.moves:hover {
+  background-color: rgb(220, 150, 58);
+}
